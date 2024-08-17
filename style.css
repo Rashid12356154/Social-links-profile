@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    font-family:inter;
+    font-size: 14px;
+    background-color:  hsl(0, 0%, 8%);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.profile{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 350px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.user h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+    padding:10px 0px;
+}
+.profile .user p{
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.profile p{
+    color:hsla(0, 0%, 100%, 0.877);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.profile ul{
+    width: 100%;
+    margin: 0px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.profile ul li{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+   
+    
+}
+.profile ul li a{
+    display: block;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    font-weight: 700;
+    transition: background-color .4s ease-in-out;
+}
+.profile ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+}
